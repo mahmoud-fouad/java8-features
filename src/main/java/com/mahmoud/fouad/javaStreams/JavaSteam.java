@@ -1,5 +1,6 @@
 package com.mahmoud.fouad.javaStreams;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -37,5 +38,7 @@ public class JavaSteam {
 		}
 				).map(str-> str.toUpperCase()).collect(Collectors.toList());
 	}
+
+	
 
 }
